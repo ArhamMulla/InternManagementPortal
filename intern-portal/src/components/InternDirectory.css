@@ -1,0 +1,190 @@
+.intern-directory-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: sans-serif;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .controls input,
+  .controls select,
+  .controls button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers everything horizontally */
+    text-align: center;  /* Centers text */
+  }
+  
+  .card-img {
+    width: 120px; /* Adjusted for a more balanced look */
+    height: 120px; /* Adjusted for a more balanced look */
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem; /* Added space between image and text */
+  }
+  
+  .card h2 {
+    margin: 0.5rem 0;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.5rem 0;
+  }
+  
+  .skills li {
+    display: inline-block;
+    background: #eef;
+    padding: 0.3rem 0.6rem;
+    margin: 0.2rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+  }
+  
+  .extra-details {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .pagination button {
+    padding: 0.5rem 1rem;
+  }
+
+  .intern-directory-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: sans-serif;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .controls input, .controls select, .controls button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .card-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .card h2 {
+    margin: 0.5rem 0;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.5rem 0;
+  }
+  
+  .skills li {
+    display: inline-block;
+    background: #eef;
+    padding: 0.3rem 0.6rem;
+    margin: 0.2rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+  }
+  
+  .extra-details {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .pagination button {
+    padding: 0.5rem 1rem;
+  }
+
+  
+  .green-button {
+    background-color: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .green-button:hover {
+    background-color: #218838;
+  }
+
+  .red-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .red-button:hover {
+    background-color: #c0392b;
+  }

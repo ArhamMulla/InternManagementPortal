@@ -1,0 +1,21 @@
+# Node modules
+intern-portal/node_modules/
+server/node_modules/
+
+# Build output
+intern-portal/dist/
+server/dist/
+
+# Logs
+*.log
+
+# Environment variables
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE configs
+.vscode/
+.idea/

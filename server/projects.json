@@ -1,0 +1,73 @@
+[
+  {
+    "id": "p1",
+    "name": "Frontend Dashboard",
+    "description": "A dashboard built with React for internal analytics.",
+    "requiredTech": [
+      "React",
+      "CSS",
+      "JavaScript"
+    ],
+    "roles": [
+      "Frontend Intern"
+    ],
+    "assignedInterns": [
+      {
+        "id": "1",
+        "name": "John Doe"
+      },
+      {
+        "id": "2",
+        "name": "Jane Smith"
+      },
+      {
+        "id": "a471f38e-6e0d-44e0-b408-3f6632ab6345",
+        "name": "Naina Sharma"
+      },
+      {
+        "id": "5",
+        "name": "Nina Park"
+      }
+    ]
+  },
+  {
+    "id": "p2",
+    "name": "AI Chatbot",
+    "description": "Build a chatbot using Python and NLP techniques.",
+    "requiredTech": [
+      "Python",
+      "NLP"
+    ],
+    "roles": [
+      "ML Intern"
+    ],
+    "assignedInterns": [
+      {
+        "id": "a471f38e-6e0d-44e0-b408-3f6632ab6825",
+        "name": "Diksha"
+      },
+      {
+        "id": "02d3e840-dc28-47e3-bcb1-e3903f0a238a",
+        "name": "Affan"
+      }
+    ]
+  },
+  {
+    "id": "p3",
+    "name": "Backend API",
+    "description": "Develop scalable APIs using Node.js and MongoDB.",
+    "requiredTech": [
+      "Node.js",
+      "MongoDB"
+    ],
+    "roles": [
+      "Backend Intern"
+    ],
+    "assignedInterns": [
+      {
+        "id": "4be9b356-9c1c-4ae1-9848-582d96ab7743",
+        "name": "Sankeerthana"
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+    "image": "https://randomuser.me/api/portraits/men/11.jpg",
+    "description": "A passionate React developer.",
+    "skills": [
+      "React",
+      "JavaScript",
+      "HTML"
+    ],
+    "funFact": "Loves pineapple on pizza 🍍",
+    "email": "john.doe@example.com",
+    "phone": "123-456-7890",
+    "role": "Frontend Intern",
+    "joiningDate": "2024-06-01",
+    "techStack": [
+      "React"
+    ],
+    "assignedProject": "p1"
+  },
+  {
+    "id": "3",
+    "name": "Alex Johnson",
+    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "description": "UI/UX enthusiast with an eye for detail.",
+    "skills": [
+      "HTML",
+      "JS",
+      "CSS"
+    ],
+    "funFact": "Has visited 15 countries 🌍",
+    "email": "alex.johnson@example.com",
+    "phone": "555-123-4567",
+    "role": "Frontend Intern",
+    "joiningDate": "2024-06-15"
+  },
+  {
+    "id": "4",
+    "name": "David Kim",
+    "image": "https://randomuser.me/api/portraits/men/45.jpg",
+    "description": "AI enthusiast and chess master.",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "Scikit-learn"
+    ],
+    "funFact": "Can solve a Rubik’s cube in under 20 seconds 🧠",
+    "email": "david.kim@example.com",
+    "phone": "222-333-4444",
+    "role": "ML Intern",
+    "joiningDate": "2024-06-20",
+    "assignedProject": "1745750312156"
+  },
+  {
+    "id": "5",
+    "name": "Nina Park",
+    "image": "https://randomuser.me/api/portraits/women/72.jpg",
+    "description": "Frontend developer who loves animations.",
+    "skills": [
+      "React",
+      "Framer Motion",
+      "CSS"
+    ],
+    "funFact": "Has a pet parrot that sings 🎶",
+    "email": "nina.park@example.com",
+    "phone": "101-202-3030",
+    "role": "Frontend Intern",
+    "joiningDate": "2024-06-08",
+    "assignedProject": "p1"
+  },
+  {
+    "id": "6",
+    "name": "Carlos Rivera",
+    "image": "https://randomuser.me/api/portraits/women/63.jpg",
+    "description": "Backend expert and code optimizer.",
+    "skills": [
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "funFact": "Won a regional hackathon 🏆",
+    "email": "carlos.rivera@example.com",
+    "phone": "303-404-5050",
+    "role": "Backend Intern",
+    "joiningDate": "2024-06-06",
+    "techStack": [
+      "Node.js"
+    ]
+  },
+  {
+    "id": "9a6f94cb-65cb-4d53-92b9-35bbf5437fcc",
+    "name": "Hannah Lee",
+    "image": "https://randomuser.me/api/portraits/men/52.jpg",
+    "description": "Machine learning nerd and data cruncher.",
+    "skills": [
+      "Python",
+      "Pandas",
+      "PyTorch"
+    ],
+    "funFact": "Can play the ukulele 🎵",
+    "email": "hannah.lee@example.com",
+    "phone": "606-707-8080",
+    "role": "ML Intern",
+    "joiningDate": "2024-06-14"
+  },
+  {
+    "id": "9a6f94cb-65cb-4d53-92b9-35bbf6737fcc",
+    "name": "Ethan Clarke",
+    "image": "https://randomuser.me/api/portraits/men/61.jpg",
+    "description": "Frontend dev who builds pixel-perfect UIs.",
+    "skills": [
+      "Vue.js",
+      "HTML",
+      "CSS"
+    ],
+    "funFact": "Does landscape photography in his free time 📸",
+    "email": "ethan.clarke@example.com",
+    "phone": "909-101-1121",
+    "role": "Frontend Intern",
+    "joiningDate": "2024-06-02"
+  },
+  {
+    "id": "a471f38e-6e0d-44e0-b408-3f6632ab6592",
+    "name": "Priya Mehta",
+    "image": "https://randomuser.me/api/portraits/women/56.jpg",
+    "description": "AI researcher and NLP explorer.",
+    "skills": [
+      "Python",
+      "Hugging Face",
+      "NLP"
+    ],
+    "funFact": "Writes sci-fi short stories ✍️",
+    "email": "priya.mehta@example.com",
+    "phone": "212-313-4141",
+    "role": "ML Intern",
+    "joiningDate": "2024-06-17",
+    "assignedProject": "1745580243790"
+  },
+  {
+    "id": "a471f38e-6e0d-44e0-b408-3f6632ab6278",
+    "name": "Luca Bianchi",
+    "image": "https://randomuser.me/api/portraits/women/48.jpg",
+    "description": "Backend intern passionate about APIs.",
+    "skills": [
+      "Go",
+      "REST",
+      "PostgreSQL"
+    ],
+    "funFact": "Speaks fluent Italian and French 🇮🇹🇫🇷",
+    "email": "luca.bianchi@example.com",
+    "phone": "818-919-2020",
+    "role": "Backend Intern",
+    "joiningDate": "2024-06-13",
+    "assignedProject": "1745680503553"
+  },
+  {
+    "id": "a471f38e-6e0d-44e0-b408-3f6632ab6345",
+    "name": "Naina Sharma",
+    "image": "https://randomuser.me/api/portraits/women/34.jpg",
+    "description": "AIML enthusiast",
+    "skills": [
+      "Python",
+      "Pandas"
+    ],
+    "funFact": "good in dance",
+    "email": "nainasharma@example.com",
+    "phone": "9903456890",
+    "role": "ML Intern",
+    "joiningDate": "2024-12-05",
+    "assignedProject": "p1"
+  },
+  {
+    "id": "a471f38e-6e0d-44e0-b408-3f6632ab6825",
+    "name": "Diksha",
+    "image": "https://randomuser.me/api/portraits/women/21.jpg",
+    "description": "Backend Developer",
+    "skills": [
+      "Node js",
+      "SpringBoot"
+    ],
+    "funFact": "Loves Cats",
+    "email": "diksha@gmail.com",
+    "phone": "1234567890",
+    "role": "Backend Developer",
+    "joiningDate": "2025-02-03",
+    "techStack": [
+      "Node.js"
+    ],
+    "assignedProject": "p2"
+  },
+  {
+    "id": "02d3e840-dc28-47e3-bcb1-e3903f0a238a",
+    "name": "Affan",
+    "image": "https://randomuser.me/api/portraits/men/77.jpg",
+    "description": "Passionate Fullstack developer",
+    "skills": [
+      "React",
+      "Springboot",
+      ""
+    ],
+    "funFact": "Loves to play football",
+    "email": "affanmulla@gmail.com",
+    "phone": "9886658780",
+    "role": "Backend Developer",
+    "joiningDate": "2025-03-05",
+    "techStack": [
+      "Java"
+    ],
+    "assignedProject": "p2"
+  },
+  {
+    "id": "4be9b356-9c1c-4ae1-9848-582d96ab7743",
+    "name": "Sankeerthana",
+    "image": "https://randomuser.me/api/portraits/women/10.jpg",
+    "description": ".NET Developer",
+    "skills": [
+      ".NET",
+      "C#"
+    ],
+    "funFact": "Laughs for everything small thing",
+    "email": "sankeerthana@gmail.com",
+    "phone": "1234567890",
+    "role": "Backend Developer",
+    "joiningDate": "2025-03-02",
+    "techStack": [
+      "MongoDB",
+      "Node.js"
+    ],
+    "assignedProject": "p3"
+  },
+  {
+    "id": "b55f442a-c2a3-49e5-b7c3-629ac056c95c",
+    "name": "Apoorva",
+    "image": "https://randomuser.me/api/portraits/women/96.jpg",
+    "gender": "female",
+    "description": "Passionate Fullstack developer",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JS",
+      "React",
+      "Node"
+    ],
+    "funFact": "Loves to watch Anime and tmkoc",
+    "email": "apoorva@gmail.com",
+    "phone": "1234567890",
+    "role": "Frontend Developer",
+    "joiningDate": "2025-01-25"
+  },
+  {
+    "id": "d3901f3d-e544-4912-b583-dcc7176aefde",
+    "name": "b",
+    "image": "https://randomuser.me/api/portraits/men/9.jpg",
+    "gender": "male",
+    "description": "b",
+    "skills": [
+      "b"
+    ],
+    "funFact": "b",
+    "email": "a@gmail.com",
+    "phone": "09902408626",
+    "role": "Backend Developer",
+    "joiningDate": "2025-09-09"
+  },
+  {
+    "id": "a7a77087-8c90-4706-a88c-c18997843cae",
+    "name": "c",
+    "image": "https://randomuser.me/api/portraits/women/24.jpg",
+    "gender": "female",
+    "description": "c",
+    "skills": [
+      "c"
+    ],
+    "funFact": "c",
+    "email": "a@gmail.com",
+    "phone": "09902408626",
+    "role": "Backend Developer",
+    "joiningDate": "2024-09-09",
+    "assignedProject": "1745742981881"
+  },
+  {
+    "id": "f6e003ba-bf4e-4b37-9662-a1b4efdf7f2f",
+    "name": "d",
+    "image": "https://randomuser.me/api/portraits/men/70.jpg",
+    "gender": "male",
+    "description": "d",
+    "skills": [
+      "d"
+    ],
+    "funFact": "d",
+    "email": "a@gmail.com",
+    "phone": "09902408626",
+    "role": "Frontend Intern",
+    "joiningDate": "2025-02-03"
+  },
+  {
+    "id": "0668bad7-146b-4fde-9b11-5ac005e61d0f",
+    "name": "e",
+    "image": "https://randomuser.me/api/portraits/women/54.jpg",
+    "gender": "female",
+    "description": "e",
+    "skills": [
+      "e"
+    ],
+    "funFact": "e",
+    "email": "a@gmail.com",
+    "phone": "09902408626",
+    "role": "Frontend Intern",
+    "joiningDate": "2025-06-09",
+    "techStack": [
+      "Python",
+      "Django"
+    ],
+    "assignedProject": "1745750312156"
+  }
+]
