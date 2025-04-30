@@ -3,7 +3,8 @@ const Intern = require('../models/Intern');
 // Get all interns
 exports.getAllInterns = async (req, res) => {
   try {
-    const interns = await Intern.find();
+    // const interns = await Intern.find();
+    const interns = await Intern.find().populate('assignedProject');
     res.json(interns);
   } catch (error) {
     res.status(500).json({ message: 'Error fetching interns', error });

@@ -1,23 +1,30 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { addIntern } from "../services/api";
+import { addIntern, updateIntern } from "../services/api"; // Assuming these exist
 import { useNavigate } from "react-router-dom";
 import "./InternForm.css";
 
-function InternForm({ onClose, onAddIntern }) {
+function InternForm({ 
+  onClose, 
+  onAddIntern, 
+  onUpdateIntern, 
+  initialData = {}, 
+  isEdit = false 
+}) {
   const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
-    name: "",
-    image: "",
-    gender: "male", // default
-    description: "",
-    skills: "",
-    funFact: "",
-    email: "",
-    phone: "",
-    role: "",
-    joiningDate: "",
+    name: initialData.name || "",
+    image: initialData.image || "",
+    gender: initialData.gender || "male",
+    description: initialData.description || "",
+    skills: initialData.skills ? initialData.skills.join(", ") : "",
+    funFact: initialData.funFact || "",
+    email: initialData.email || "",
+    phone: initialData.phone || "",
+    role: initialData.role || "",
+    joiningDate: initialData.joiningDate || "",
+    id: initialData.id || uuidv4(), // Only for editing existing
   });
 
   const [errors, setErrors] = useState({});
@@ -51,27 +58,32 @@ function InternForm({ onClose, onAddIntern }) {
     const randomId = Math.floor(Math.random() * 99); // 0 to 99
     const genderPath = formData.gender === "female" ? "women" : "men";
 
-    const newIntern = {
-      id: uuidv4(),
+    const updatedIntern = {
       ...formData,
       skills: formData.skills.split(",").map((skill) => skill.trim()),
       image: formData.image || `https://randomuser.me/api/portraits/${genderPath}/${randomId}.jpg`,
     };
 
     try {
-      await addIntern(newIntern);
-      // navigate("/");
-      onAddIntern(newIntern); // 👈 tell parent that new intern is added
-      onClose();
+      if (isEdit) {
+        await onUpdateIntern(updatedIntern); // Update existing intern
+      } else {
+        updatedIntern.id = uuidv4(); // Assign a new ID for new intern
+        await addIntern(updatedIntern); // Add new intern to the API
+        onAddIntern(updatedIntern); // Call the parent callback to update state
+        alert("Intern added successfully!");
+      }
+
+      onClose(); // Close the modal after successful operation
     } catch (err) {
-      console.error("Failed to add intern:", err);
+      console.error("Failed to submit intern:", err);
     }
   };
 
   return (
     <div className="form-overlay">
       <div className="form-container">
-        <h2>Add New Intern</h2>
+        <h2>{isEdit ? "Edit Intern" : "Add New Intern"}</h2>
         <form onSubmit={handleSubmit}>
           <label>Name:</label>
           <input name="name" value={formData.name} onChange={handleChange} />
@@ -115,7 +127,7 @@ function InternForm({ onClose, onAddIntern }) {
           <input name="image" value={formData.image} onChange={handleChange} />
 
           <div className="form-buttons">
-            <button type="submit">Submit</button>
+            <button type="submit">{isEdit ? "Update" : "Submit"}</button>
             <button type="button" onClick={onClose}>Cancel</button>
           </div>
         </form>
